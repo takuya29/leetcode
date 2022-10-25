@@ -1,0 +1,19 @@
+#! /bin/sh
+
+cd "$(dirname "$0")"
+
+if [ ! -z "$1" ]
+then
+      dirName=$(echo $1 | sed -e "s/\. /-/g;s/\ /-/g")
+      mkdir -p $dirName
+      fileName="${2:-Solution}"
+      for extension in ".py" ".kt" ".java"
+      do
+            path=$dirName/$fileName$extension
+            if ! test -f  "$path"
+            then
+                  echo "Creating $path..."
+                  touch $path
+            fi
+      done
+fi
