@@ -7,6 +7,7 @@ DIFFICULTIES = typing.Literal["easy", "medium", "hard"]
 
 
 class Problem(typing.NamedTuple):
+    """Data class to keep problem information."""
     number: int
     title: str
     path: pathlib.Path
@@ -14,6 +15,7 @@ class Problem(typing.NamedTuple):
 
 
 problems = []
+
 for difficulty in typing.get_args(DIFFICULTIES):
     for path in (ROOTDIR / difficulty).glob("*/"):
         match = re.fullmatch(r"(\d+)-(.*)", path.name)
@@ -26,6 +28,7 @@ for difficulty in typing.get_args(DIFFICULTIES):
 problems.sort(key=lambda x: x.path.name)
 
 contents = []
+contents.append("# Leetcode\n")
 contents.append("| # | Title | Solution | Difficulty |\n")
 contents.append("| ------ | ------ | ------ | ------ |\n")
 
