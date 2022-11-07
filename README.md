@@ -1,5 +1,16 @@
-# leetcode
-
-## Resources
-- [Neetcode](https://neetcode.io)
-- [Leetcode Patterns](https://seanprashad.com/leetcode-patterns/)
+# Leetcode
+| # | Title | Solution | Difficulty |
+| ------ | ------ | ------ | ------ |
+| 102 | Binary Tree Level Order Traversal | [BFS.java](medium/102-Binary-Tree-Level-Order-Traversal/BFS.java)</br>[BFS.kt](medium/102-Binary-Tree-Level-Order-Traversal/BFS.kt)</br>[BFS.py](medium/102-Binary-Tree-Level-Order-Traversal/BFS.py) | medium | 
+| 130 | Surrounded Regions | [BFS.java](medium/130-Surrounded-Regions/BFS.java)</br>[BFS.kt](medium/130-Surrounded-Regions/BFS.kt)</br>[BFS.py](medium/130-Surrounded-Regions/BFS.py) | medium | 
+| 133 | Clone Graph | [DFS.java](medium/133-Clone-Graph/DFS.java)</br>[DFS.kt](medium/133-Clone-Graph/DFS.kt)</br>[DFS.py](medium/133-Clone-Graph/DFS.py) | medium | 
+| 1584 | Min Cost to Connect All Points | [UnionFind.java](medium/1584-Min-Cost-to-Connect-All-Points/UnionFind.java)</br>[UnionFind.kt](medium/1584-Min-Cost-to-Connect-All-Points/UnionFind.kt)</br>[UnionFind.py](medium/1584-Min-Cost-to-Connect-All-Points/UnionFind.py) | medium | 
+| 200 | Number of Islands | [BFS.java](medium/200-Number-of-Islands/BFS.java)</br>[BFS.kt](medium/200-Number-of-Islands/BFS.kt)</br>[BFS.py](medium/200-Number-of-Islands/BFS.py) | medium | 
+| 207 | Course Schedule | [TopologicalSort.java](medium/207-Course-Schedule/TopologicalSort.java)</br>[TopologicalSort.kt](medium/207-Course-Schedule/TopologicalSort.kt)</br>[TopologicalSort.py](medium/207-Course-Schedule/TopologicalSort.py) | medium | 
+| 210 | Course Schedule II | [TopologicalSort.java](medium/210-Course-Schedule-II/TopologicalSort.java)</br>[TopologicalSort.kt](medium/210-Course-Schedule-II/TopologicalSort.kt)</br>[TopologicalSort.py](medium/210-Course-Schedule-II/TopologicalSort.py) | medium | 
+| 261 | Graph Valid Tree | [UnionFind.java](medium/261-Graph-Valid-Tree/UnionFind.java)</br>[UnionFind.kt](medium/261-Graph-Valid-Tree/UnionFind.kt)</br>[UnionFind.py](medium/261-Graph-Valid-Tree/UnionFind.py) | medium | 
+| 323 | Number of Connected Components in an Undirected Graph | [UnionFind.java](medium/323-Number-of-Connected-Components-in-an-Undirected-Graph/UnionFind.java)</br>[UnionFind.kt](medium/323-Number-of-Connected-Components-in-an-Undirected-Graph/UnionFind.kt)</br>[UnionFind.py](medium/323-Number-of-Connected-Components-in-an-Undirected-Graph/UnionFind.py) | medium | 
+| 417 | Pacific Atlantic Water Flow | [BFS.java](medium/417-Pacific-Atlantic-Water-Flow/BFS.java)</br>[BFS.kt](medium/417-Pacific-Atlantic-Water-Flow/BFS.kt)</br>[BFS.py](medium/417-Pacific-Atlantic-Water-Flow/BFS.py) | medium | 
+| 684 | Redundant Connection | [UnionFind.java](medium/684-Redundant-Connection/UnionFind.java)</br>[UnionFind.kt](medium/684-Redundant-Connection/UnionFind.kt)</br>[UnionFind.py](medium/684-Redundant-Connection/UnionFind.py) | medium | 
+| 695 | Max Area of Island | [BFS.java](medium/695-Max-Area-of-Island/BFS.java)</br>[BFS.kt](medium/695-Max-Area-of-Island/BFS.kt)</br>[BFS.py](medium/695-Max-Area-of-Island/BFS.py) | medium | 
+| 875 | Koko Eating Bananas | [BinarySearch.java](medium/875-Koko-Eating-Bananas/BinarySearch.java)</br>[BinarySearch.kt](medium/875-Koko-Eating-Bananas/BinarySearch.kt)</br>[BinarySearch.py](medium/875-Koko-Eating-Bananas/BinarySearch.py)</br>[BinarySearchByStream.java](medium/875-Koko-Eating-Bananas/BinarySearchByStream.java) | medium | 
