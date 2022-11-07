@@ -7,7 +7,7 @@ DIFFICULTIES = typing.Literal["easy", "medium", "hard"]
 
 
 class Problem(typing.NamedTuple):
-    """Data class to keep problem information."""
+    """Data class to store problem information."""
     number: int
     title: str
     path: pathlib.Path
@@ -25,6 +25,7 @@ for difficulty in typing.get_args(DIFFICULTIES):
         title = title.replace("-", " ")
         problems.append(Problem(number, title, path, difficulty))
 
+# Sort by problem title (i.e. problem number)
 problems.sort(key=lambda x: x.path.name)
 
 contents = []
@@ -35,6 +36,7 @@ contents.append("| ------ | ------ | ------ | ------ |\n")
 for problem in problems:
     solutions = []
     for sol_path in sorted(problem.path.glob("*")):
+        # Add file name with relative link.
         solutions.append(
             f"[{sol_path.name}]({str(sol_path.relative_to(ROOTDIR))})")
     contents.append(
