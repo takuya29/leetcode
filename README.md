@@ -14,4 +14,4 @@
 | 684 | Redundant Connection | [UnionFind.java](medium/684-Redundant-Connection/UnionFind.java)</br>[UnionFind.kt](medium/684-Redundant-Connection/UnionFind.kt)</br>[UnionFind.py](medium/684-Redundant-Connection/UnionFind.py) | medium | 
 | 695 | Max Area of Island | [BFS.java](medium/695-Max-Area-of-Island/BFS.java)</br>[BFS.kt](medium/695-Max-Area-of-Island/BFS.kt)</br>[BFS.py](medium/695-Max-Area-of-Island/BFS.py) | medium | 
 | 875 | Koko Eating Bananas | [BinarySearch.java](medium/875-Koko-Eating-Bananas/BinarySearch.java)</br>[BinarySearch.kt](medium/875-Koko-Eating-Bananas/BinarySearch.kt)</br>[BinarySearch.py](medium/875-Koko-Eating-Bananas/BinarySearch.py)</br>[BinarySearchByStream.java](medium/875-Koko-Eating-Bananas/BinarySearchByStream.java) | medium | 
-| 994 | Rotting Oranges | [BFS.java](medium/994-Rotting-Oranges/BFS.java)</br>[BFS.py](medium/994-Rotting-Oranges/BFS.py) | medium | 
+| 994 | Rotting Oranges | [BFS.java](medium/994-Rotting-Oranges/BFS.java)</br>[BFS.kt](medium/994-Rotting-Oranges/BFS.kt)</br>[BFS.py](medium/994-Rotting-Oranges/BFS.py) | medium | 
