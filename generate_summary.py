@@ -31,8 +31,7 @@ for difficulty in typing.get_args(DIFFICULTIES):
         title = title.replace("-", " ")
         problems.append(Problem(number, title, path, difficulty))
 
-# Sort by problem title (i.e. problem number)
-problems.sort(key=lambda x: x.path.name)
+problems.sort(key=lambda x: x.number)
 
 contents = []
 contents.append("# Leetcode\n")
