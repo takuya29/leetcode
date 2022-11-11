@@ -45,9 +45,11 @@ for problem in problems:
         name, extension = sol_path.name.split(".")
         solutions[name].append(
             f"[{LANG[extension]}]({str(sol_path.relative_to(ROOTDIR))})")
-    for name, elements in solutions.items():
-        contents.append(
-            f"| {problem.number} | {problem.title} | {name} ({', '.join(elements)}) | {problem.difficulty} | " + "\n")
+
+    solutions_str = "</br>".join(
+        (f"{name} ({', '.join(elements)})" for name, elements in solutions.items()))
+    contents.append(
+        f"| {problem.number} | {problem.title} | {solutions_str} | {problem.difficulty} | " + "\n")
 
 with open("README.md", mode="w") as f:
     f.writelines(contents)
