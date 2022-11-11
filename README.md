@@ -14,6 +14,5 @@
 | 417 | Pacific Atlantic Water Flow | BFS ([Java](medium/417-Pacific-Atlantic-Water-Flow/BFS.java), [Kotlin](medium/417-Pacific-Atlantic-Water-Flow/BFS.kt), [Python](medium/417-Pacific-Atlantic-Water-Flow/BFS.py)) | medium | 
 | 684 | Redundant Connection | UnionFind ([Java](medium/684-Redundant-Connection/UnionFind.java), [Kotlin](medium/684-Redundant-Connection/UnionFind.kt), [Python](medium/684-Redundant-Connection/UnionFind.py)) | medium | 
 | 695 | Max Area of Island | BFS ([Java](medium/695-Max-Area-of-Island/BFS.java), [Kotlin](medium/695-Max-Area-of-Island/BFS.kt), [Python](medium/695-Max-Area-of-Island/BFS.py)) | medium | 
-| 875 | Koko Eating Bananas | BinarySearch ([Java](medium/875-Koko-Eating-Bananas/BinarySearch.java), [Kotlin](medium/875-Koko-Eating-Bananas/BinarySearch.kt), [Python](medium/875-Koko-Eating-Bananas/BinarySearch.py)) | medium | 
-| 875 | Koko Eating Bananas | BinarySearchByStream ([Java](medium/875-Koko-Eating-Bananas/BinarySearchByStream.java)) | medium | 
+| 875 | Koko Eating Bananas | BinarySearch ([Java](medium/875-Koko-Eating-Bananas/BinarySearch.java), [Kotlin](medium/875-Koko-Eating-Bananas/BinarySearch.kt), [Python](medium/875-Koko-Eating-Bananas/BinarySearch.py))</br>BinarySearchByStream ([Java](medium/875-Koko-Eating-Bananas/BinarySearchByStream.java)) | medium | 
 | 994 | Rotting Oranges | BFS ([Java](medium/994-Rotting-Oranges/BFS.java), [Kotlin](medium/994-Rotting-Oranges/BFS.kt), [Python](medium/994-Rotting-Oranges/BFS.py)) | medium | 
