@@ -36,7 +36,7 @@ problems.sort(key=lambda x: x.path.name)
 
 contents = []
 contents.append("# Leetcode\n")
-contents.append("| # | Title | Solution | Difficulty |\n")
+contents.append("| # | Title | Solutions | Difficulty |\n")
 contents.append("| ------ | ------ | ------ | ------ |\n")
 
 for problem in problems:
