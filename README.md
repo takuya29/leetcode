@@ -2,6 +2,7 @@
 | # | Title | Solutions | Difficulty |
 | :------: | ------ | :------: | :------: |
 | 102 | Binary Tree Level Order Traversal | BFS ([Java](medium/102-Binary-Tree-Level-Order-Traversal/BFS.java), [Kotlin](medium/102-Binary-Tree-Level-Order-Traversal/BFS.kt), [Python](medium/102-Binary-Tree-Level-Order-Traversal/BFS.py)) | medium | 
+| 127 | Word Ladder | BFS ([Python](hard/127-Word-Ladder/BFS.py)) | hard | 
 | 130 | Surrounded Regions | BFS ([Java](medium/130-Surrounded-Regions/BFS.java), [Kotlin](medium/130-Surrounded-Regions/BFS.kt), [Python](medium/130-Surrounded-Regions/BFS.py)) | medium | 
 | 133 | Clone Graph | DFS ([Java](medium/133-Clone-Graph/DFS.java), [Kotlin](medium/133-Clone-Graph/DFS.kt), [Python](medium/133-Clone-Graph/DFS.py)) | medium | 
 | 200 | Number of Islands | BFS ([Java](medium/200-Number-of-Islands/BFS.java), [Kotlin](medium/200-Number-of-Islands/BFS.kt), [Python](medium/200-Number-of-Islands/BFS.py)) | medium | 
