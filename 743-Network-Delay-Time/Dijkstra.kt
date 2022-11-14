@@ -5,12 +5,10 @@ class Solution {
             if (graph[u - 1] == null) {
                 graph[u - 1] = mutableListOf()
             }
-            graph[u - 1]!!.add(v - 1 to c)
+            graph[u - 1]?.add(v - 1 to c)
         }
         
-        val dist = IntArray(n) {Int.MAX_VALUE}
-        dist[k - 1] = 0
-        
+        val dist = IntArray(n) {if (it == k - 1) 0 else Int.MAX_VALUE}
         val queue = PriorityQueue<Pair<Int, Int>> {o1, o2 -> o1.first.compareTo(o2.first)}
         queue.offer(0 to k - 1)
         
